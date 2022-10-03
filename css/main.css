@@ -323,11 +323,12 @@ footer > p{
   text-decoration: none;
   color: #858585;
   font-size: 0.8vw;
+  font-weight: 200;
   padding: 4px;
 }
 
 
-
+/* ------Responsive---------- */
 @media screen and (max-width: 480px){
     nav{
         display:flex;
