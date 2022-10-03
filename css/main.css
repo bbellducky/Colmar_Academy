@@ -217,7 +217,7 @@ nav > .logo-img p{
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 72px;
-  column-gap: 16px;
+  column-gap: 32px;
   row-gap:32px;
 }
 .content-3-card-info{
