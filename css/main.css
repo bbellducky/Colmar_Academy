@@ -9,11 +9,11 @@
   font-family: 'Poppins';
 }
 
-body{
+body{  
   background-color: lightgray;
 }
 h1{
-  font-size: 3.6vw;
+  font-size: 3.2vw;
   color: #474747;
 }
 h2{
@@ -54,7 +54,6 @@ nav{
 }
 nav > .logo-img{
   display: flex;
-/*   align-items: center; */
   margin-left: 24px;
   height: 32px;
 }
@@ -87,10 +86,8 @@ nav > .logo-img p{
 
 .content-1{
   display: flex;
-/*   justify-content: space-evenly; */
-  margin:32px 0 32px 24px;
-  
-  width: 100%;
+  padding:32px 0 32px 24px;
+  width: 100vw;
   height: auto
 }
 .content-1 > .content-1-img .banner{
@@ -131,7 +128,7 @@ nav > .logo-img p{
 /*   justify-content: space-evenly; */
   padding-top: 32px;
   padding-left: 24px;
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 .content-2 > .content-2-img .information-main{
@@ -213,20 +210,23 @@ nav > .logo-img p{
   display: flex;
   flex-direction: column;
   background-color: #eaebec;
-  padding: 32px 72px;
-  width: 100%;
+  width: 100vw;
   height: auto;
+  padding-bottom: 32px;
 }
 
 .content-3-text > h1{
   display: flex;
   justify-content: center;
-  padding-bottom: 32px;  
+  padding:32px 0;  
 }
 .content-3-card{
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  justify-content: space-between;
+  padding: 0 72px;
+  column-gap: 32px;
+  row-gap:32px;
 }
 .content-3-card-info{
   display: flex;
@@ -247,7 +247,7 @@ nav > .logo-img p{
   display: flex;
   flex-direction: column;
   background-color: #f3f5f5;
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 
